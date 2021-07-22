@@ -1,0 +1,8 @@
+# ./docker-compose.yml
+version: '3.3'
+services:
+  web:
+    image: sepehrsy/nginx-lua:latest
+    container_name: NginX
+    ports:
+      - "5000:80"
